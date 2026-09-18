@@ -1,0 +1,6 @@
+{
+  "name": "Aura Wear – Men's Boutique",
+  "description": "Premium men's fashion and bespoke tailoring boutique featuring master tailoring, locally sourced fabrics, and timeless contemporary sophistication.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

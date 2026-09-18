@@ -1,0 +1,328 @@
+import { Product } from '../types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 'aura-signature-suit',
+    name: 'The Aura Signature Suit',
+    subtitle: 'Full Canvas Bespoke Two-Piece in Charcoal Melange',
+    category: 'suits',
+    price: 38500,
+    originalPrice: 44000,
+    images: [
+      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?q=80&w=1200&auto=format&fit=crop',
+    ],
+    colors: [
+      { name: 'Charcoal Grey', hex: '#2E3033' },
+      { name: 'Midnight Navy', hex: '#1B2430' },
+      { name: 'Espresso Brown', hex: '#3A2B20' },
+    ],
+    sizes: ['38R', '40R', '42R', '44R', '46R'],
+    fabric: 'Super 140s Australian Merino Wool woven in Biella, Italy (280 GSM)',
+    description:
+      'The crown jewel of our tailoring atelier. Cut with a soft Neapolitan shoulder, hand-stitched Milanese buttonholes, and a floating horsehair canvas that molds organically to your silhouette over time. Perfect for boardrooms, black-tie galas, and bespoke evening affairs.',
+    details: [
+      'Full floating horsehair canvas construction',
+      'Double vents with hand-rolled lapels',
+      'Mother-of-pearl buttons with shank support',
+      'Pure cupro breathable Bemberg lining',
+      'Matching flat-front trousers with side adjusters',
+    ],
+    careInstructions: [
+      'Specialist dry clean only',
+      'Store on wide-shoulder cedar hanger',
+      'Steam gently between wears',
+      'Never iron directly on wool surface',
+    ],
+    inStock: true,
+    isBestseller: true,
+  },
+  {
+    id: 'classic-charcoal-blazer',
+    name: 'Classic Charcoal Blazer',
+    subtitle: 'Deconstructed Single-Breasted Travel Blazer',
+    category: 'blazers',
+    price: 22900,
+    originalPrice: 26500,
+    images: [
+      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=1200&auto=format&fit=crop',
+    ],
+    colors: [
+      { name: 'Charcoal Herringbone', hex: '#333333' },
+      { name: 'Tuscan Camel', hex: '#A88B68' },
+      { name: 'Obsidian Black', hex: '#1A1A1A' },
+    ],
+    sizes: ['38', '40', '42', '44', '46'],
+    fabric: 'Wool-Silk-Linen Blend (Italian Mill E. Thomas)',
+    description:
+      'Engineered for the discerning globetrotter. Deconstructed without heavy padding, this lightweight blazer delivers an effortlessly sharp silhouette that transitions effortlessly from morning meetings to sunset lounges.',
+    details: [
+      'Quarter-lined for maximum breathability',
+      'Patch pockets with hand-tack bar-tacks',
+      'Natural horn buttons from vintage Italian horn makers',
+      'Interior passport & cigar pocket',
+    ],
+    careInstructions: [
+      'Dry clean sparingly',
+      'Brush off dust using natural boar bristle garment brush',
+      'Hang in ventilated wardrobe',
+    ],
+    inStock: true,
+    isNew: true,
+  },
+  {
+    id: 'italian-cotton-shirt',
+    name: 'Italian Cotton Shirt',
+    subtitle: 'Hand-Finished 120s Two-Ply Twill Dress Shirt',
+    category: 'shirts',
+    price: 6800,
+    originalPrice: 7900,
+    images: [
+      'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=1200&auto=format&fit=crop',
+    ],
+    colors: [
+      { name: 'Crisp White', hex: '#FAF9F6' },
+      { name: 'Champagne Ivory', hex: '#EFE8DA' },
+      { name: 'Sky Blue Melange', hex: '#CAD9E8' },
+    ],
+    sizes: ['38 (15")', '39 (15.5")', '40 (16")', '42 (16.5")', '44 (17.5")'],
+    fabric: '100% Giza Egyptian Long-Staple Cotton, woven in Albini, Italy',
+    description:
+      'Impeccably woven with high-density two-ply yarn, this shirt delivers a silky, luminous hand with zero transparency. Features an elegant semi-spread collar engineered to cradle tie knots or sit proud under an open lapel.',
+    details: [
+      '22 stitches per inch master tailoring',
+      'Removable brass collar stays included',
+      'Australian Mother-of-pearl buttons',
+      'Split yoke back for natural shoulder articulation',
+    ],
+    careInstructions: [
+      'Machine wash cold on gentle cycle',
+      'Line dry in shade',
+      'Iron while slightly damp on cotton setting',
+    ],
+    inStock: true,
+    isBestseller: true,
+  },
+  {
+    id: 'midnight-black-trousers',
+    name: 'Midnight Black Trousers',
+    subtitle: 'High-Rise Gurkha Trousers with Double Pleats',
+    category: 'trousers',
+    price: 7500,
+    images: [
+      'https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1479064555552-3ef4979f8908?q=80&w=1200&auto=format&fit=crop',
+    ],
+    colors: [
+      { name: 'Midnight Black', hex: '#141414' },
+      { name: 'Espresso Brown', hex: '#34261B' },
+      { name: 'Sand Taupe', hex: '#B8A898' },
+    ],
+    sizes: ['30', '32', '34', '36', '38'],
+    fabric: 'Tropical High-Twist Merino Wool (Crease-Resistant)',
+    description:
+      'A masterclass in sartorial proportion. Cut with a generous high-rise waist, extended waistband with brass buckle side-adjusters, and deep forward double pleats that create an impeccable drape through the leg.',
+    details: [
+      'Extended Gurkha-style crossover tab closure',
+      'Curved sartorial waistband with curtain interior lining',
+      'Finished with a 2-inch turn-up cuff',
+      'Horn side-adjuster hardware',
+    ],
+    careInstructions: [
+      'Dry clean only',
+      'Hang by cuffs on clamp hanger to let creases fall naturally',
+    ],
+    inStock: true,
+  },
+  {
+    id: 'heritage-leather-belt',
+    name: 'Heritage Leather Belt',
+    subtitle: 'Vegetable-Tanned Full-Grain Leather with Brushed Brass',
+    category: 'accessories',
+    price: 4200,
+    images: [
+      'https://images.unsplash.com/photo-1624222247344-550fb60583dc?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1200&auto=format&fit=crop',
+    ],
+    colors: [
+      { name: 'Cognac Saddle', hex: '#8B4513' },
+      { name: 'Espresso Dark', hex: '#311E13' },
+      { name: 'Onyx Black', hex: '#111111' },
+    ],
+    sizes: ['32', '34', '36', '38', '40'],
+    fabric: 'Full-Grain Tuscan Cowhide with Hand-Beveled Waxed Edges',
+    description:
+      'Artisanal leathercraft built to age with extraordinary character. Hand-dyed using organic tree bark tannins, cut to a versatile 32mm width that slides effortlessly through both formal suit loops and tailored chinos.',
+    details: [
+      'Solid forged brass buckle with champagne matte finish',
+      'Hand-burnished edge sealing using beeswax',
+      'Hand-stitched keeper loop with waxed linen thread',
+      'Engraved discreet Aura crest on inner leather',
+    ],
+    careInstructions: [
+      'Condition twice annually with natural beeswax balm',
+      'Keep away from direct heat and water',
+    ],
+    inStock: true,
+  },
+  {
+    id: 'executive-leather-wallet',
+    name: 'Executive Leather Wallet',
+    subtitle: 'Ultra-Slim Bifold with RFID Protection & Cash Sleeve',
+    category: 'accessories',
+    price: 3800,
+    images: [
+      'https://images.unsplash.com/photo-1627123424574-724758594e93?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1200&auto=format&fit=crop',
+    ],
+    colors: [
+      { name: 'Espresso Brown', hex: '#352317' },
+      { name: 'Charcoal Black', hex: '#1C1C1C' },
+      { name: 'Oxblood Crimson', hex: '#4A1521' },
+    ],
+    sizes: ['One Size'],
+    fabric: 'French Chèvre Goatskin & Vegetable-Tanned Calfskin',
+    description:
+      'Slim enough to preserve the tailored line of your suit jacket breast pocket. Engineered with 6 precision card slots, two hidden slip compartments, and a full-length currency billfold.',
+    details: [
+      'Ultra-thin 7mm profile when loaded',
+      'Hidden aerospace-grade RFID shielding',
+      'Hand-creased French saddle edge detail',
+      'Foil-embossed Aura Wear signature logo',
+    ],
+    careInstructions: [
+      'Wipe clean with a soft dry microfiber cloth',
+      'Store in provided velvet pouch when traveling',
+    ],
+    inStock: true,
+    isNew: true,
+  },
+  {
+    id: 'signature-silk-tie',
+    name: 'Signature Silk Tie',
+    subtitle: 'Seven-Fold Handcrafted Jacquard Silk Tie in Champagne Navy',
+    category: 'accessories',
+    price: 3400,
+    images: [
+      'https://images.unsplash.com/photo-1589756823695-278bc923f962?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?q=80&w=1200&auto=format&fit=crop',
+    ],
+    colors: [
+      { name: 'Champagne & Navy', hex: '#202C39' },
+      { name: 'Burgundy Medallion', hex: '#591624' },
+      { name: 'Forest Olive', hex: '#2B382D' },
+    ],
+    sizes: ['8cm Width (Standard)'],
+    fabric: '100% Pure Mulberry Silk (Como, Italy)',
+    description:
+      'Crafted according to the centuries-old seven-fold tradition, where a single sheet of jacquard silk is folded seven times onto itself without synthetic interlining. Forms a dimple of peerless symmetry.',
+    details: [
+      'Authentic untipped hand-rolled edges',
+      'Self-fabric keeper loop on reverse',
+      'Hand-stitched bar tack on blade point',
+      '8cm classic width for modern suit lapel harmony',
+    ],
+    careInstructions: [
+      'Dry clean only by luxury garment specialist',
+      'Untie after wear and roll loosely around fingers to store',
+    ],
+    inStock: true,
+  },
+  {
+    id: 'classic-pocket-square',
+    name: 'Classic Pocket Square',
+    subtitle: 'Hand-Rolled Silk & Linen Pocket Square with Contrast Hem',
+    category: 'accessories',
+    price: 1900,
+    images: [
+      'https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?q=80&w=1200&auto=format&fit=crop',
+    ],
+    colors: [
+      { name: 'Ivory with Gold Hem', hex: '#F7F3E9' },
+      { name: 'Navy with Espresso Border', hex: '#1C2533' },
+      { name: 'Sage Green', hex: '#6E7C6E' },
+    ],
+    sizes: ['33cm x 33cm'],
+    fabric: '70% Fine Silk, 30% Pure Flax Linen',
+    description:
+      'The essential finishing touch. Blended with just enough linen to hold its architectural fold in your breast pocket without slumping throughout the day.',
+    details: [
+      'Hand-rolled artisanal shoemaker hem (takes 45 minutes per piece)',
+      'Subtle lustre with rich tactile grain',
+      'Supplied in Aura branded gift casing',
+    ],
+    careInstructions: [
+      'Dry clean only or cold hand wash',
+      'Press with low heat over a cotton cloth',
+    ],
+    inStock: true,
+  },
+  {
+    id: 'royal-bandhgala-ceremonial',
+    name: 'Royal Bandhgala Ceremonial Jacket',
+    subtitle: 'Heritage Indo-Western Evening Jacket with Champagne Lining',
+    category: 'blazers',
+    price: 34000,
+    originalPrice: 38000,
+    images: [
+      'https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?q=80&w=1200&auto=format&fit=crop',
+    ],
+    colors: [
+      { name: 'Midnight Charcoal', hex: '#1F2022' },
+      { name: 'Deep Royal Navy', hex: '#161D2A' },
+      { name: 'Imperial Emerald', hex: '#182E26' },
+    ],
+    sizes: ['38', '40', '42', '44', '46'],
+    fabric: 'Worsted Cashmere & Merino Blend with Gold Thread Piping',
+    description:
+      'Rooted in aristocratic Indian menswear heritage and refined for the modern world. Structured high mandarin collar with bespoke enameled brass buttons and contrast champagne silk lining.',
+    details: [
+      'Stiffened upright mandarin collar with silk underside',
+      'Hand-crafted bespoke enameled brass buttons',
+      'Double piped flap pockets',
+      'Interior silk chest pocket with pen holster',
+    ],
+    careInstructions: [
+      'Specialist dry clean only',
+      'Store in breathable garment bag with cedar blocks',
+    ],
+    inStock: true,
+    isBestseller: true,
+  },
+  {
+    id: 'linen-safari-overshirt',
+    name: 'Tailored Linen Overshirt',
+    subtitle: 'French Normandy Flax Casual Shirt-Jacket',
+    category: 'shirts',
+    price: 8400,
+    images: [
+      'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=1200&auto=format&fit=crop',
+      'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=1200&auto=format&fit=crop',
+    ],
+    colors: [
+      { name: 'Natural Sand', hex: '#D7C7B2' },
+      { name: 'Espresso Olive', hex: '#3E382E' },
+      { name: 'Crisp White', hex: '#FAF9F6' },
+    ],
+    sizes: ['S', 'M', 'L', 'XL'],
+    fabric: '100% Certified Normandy Flax Linen (Pre-washed)',
+    description:
+      'The definition of casual elegance. Cut with dual utility bellows pockets and a relaxed camp collar, this overshirt breathes effortlessly in tropical warmth while maintaining dignified structure.',
+    details: [
+      'Garment-washed for broken-in softness from day one',
+      'Dual pleated bellows chest pockets with horn closures',
+      'Side vents with reinforced gussets',
+    ],
+    careInstructions: [
+      'Machine wash gentle cold',
+      'Air dry flat to enhance natural linen drape',
+    ],
+    inStock: true,
+    isNew: true,
+  },
+];
